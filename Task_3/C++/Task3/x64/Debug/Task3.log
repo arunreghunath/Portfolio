@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (week11.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+D:\git\Portfolio\Task_3\C++\Task3\main.cpp(46,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\git\Portfolio\Task_3\C++\Task3\main.cpp(62,21): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+D:\git\Portfolio\Task_3\C++\Task3\main.cpp(74,6): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\git\Portfolio\Task_3\C++\Task3\main.cpp(77,6): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Task3.vcxproj -> D:\git\Portfolio\Task_3\C++\x64\Debug\Task3.exe
