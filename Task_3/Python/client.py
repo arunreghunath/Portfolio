@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec 16 07:23:54 2019
+
+@author: arunr
+"""
 import urllib.request
 import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
@@ -13,10 +19,11 @@ for reading in root.findall('reading'):
     temperatureReading.append(time[time.find(' '):])
     timeReading.append(int(reading.find('temperature').text))
 
-plt.plot(time_readings, temperatureReading,'green')
-title_obj = plt.title("Temperature Vs Time")
-plt.setp(title_obj, color='green', fontsize=20,fontname="Times New Roman",fontweight="bold")
-plt.xticks(time_readings, rotation='horizontal')
-plt.xlabel("Time")
-plt.ylabel("Temperature")
+plt.plot(temperatureReading,timeReading,'blue')
+title_obj = plt.title("Weather")
+plt.setp(title_obj, color='black')
+plt.xticks(timeReading, rotation='vertical')
+plt.xticks(temperatureReading,rotation='45')
+plt.ylabel("Time")
+plt.xlabel("Temperature")
 plt.show()
