@@ -1,4 +1,4 @@
-# Task 2 - Portfolio Assignment
+# Task 3 - Portfolio Assignment
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
